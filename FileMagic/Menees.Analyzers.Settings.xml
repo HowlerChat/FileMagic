@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Menees.Analyzers.Settings>
+	<TabSize>4</TabSize>
+	<MaxLineColumns>80</MaxLineColumns>
+	<MaxPropertyAccessorLines>5</MaxPropertyAccessorLines>
+</Menees.Analyzers.Settings>
