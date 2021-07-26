@@ -5,6 +5,7 @@
     <nullable>enable</nullable>
     <CodeAnalysisRuleSet>FileMagic.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <Version>0.1.0.0</Version>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
@@ -13,12 +14,19 @@
     <Authors>Cassandra A. Heart</Authors>
     <Product>FileMagic</Product>
     <Copyright>Copyright © 2021</Copyright>
+    <RepositoryUrl>https://github.com/HowlerChat/FileMagic</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/HowlerChat/FileMagic</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <AdditionalFiles Include="Menees.Analyzers.Settings.xml" />
   </ItemGroup>
   
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Menees.Analyzers" Version="2.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
